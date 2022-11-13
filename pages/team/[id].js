@@ -1,7 +1,6 @@
 export default function Details({ user }) {
-  console.log(user);
   return (
-    <div>
+    <div className="more-details">
       <h1>User Details</h1>
       <ul>
         <li>UserId: {user.login}</li>
@@ -37,7 +36,7 @@ export async function getStaticProps(context) {
   const id = context.params.id;
   const response = await fetch('https://api.github.com/users/' + id);
   const data = await response.json();
-  console.log(data);
+
   if (!data) {
     return {
       notFound: true,

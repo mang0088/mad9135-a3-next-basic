@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '../../styles/Home.module.css';
+import Image from 'next/image';
 
 export default function Users({ users }) {
   console.log(users);
@@ -17,11 +18,17 @@ export default function Users({ users }) {
           </div>
         </div>
       </nav>
-      <h1>Random Users List</h1>
-      <ul>
+      <h1>Our Team Members</h1>
+      <ul className="team-list">
         {users.map((user) => (
           <li key={user.login}>
-            <Link href={'/users/' + user.login}>{user.login}</Link>
+            <Link href={'/team/' + user.login}>{user.login}</Link>
+            <Image
+              src="/images/right-arrow.png"
+              height={30}
+              width={30}
+              alt="Profile Pic"
+            />
           </li>
         ))}
       </ul>

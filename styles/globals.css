@@ -23,6 +23,51 @@ nav {
   border-radius: 10px;
 }
 
+ul {
+  list-style: none;
+}
+
+.prof-details ul {
+  padding: 1rem;
+}
+
+.project-list {
+  margin: 1rem 0;
+  display: flex;
+  padding: 0.2rem 1rem 1rem 1rem;
+  flex-direction: column;
+  width: 305px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+.more-details {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0rem 0rem 0.4rem 0rem;
+  background-color: cadetblue;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.more-details ul li {
+  padding: 0.4rem 0rem;
+}
+
+.team-list li {
+  display: flex;
+  margin: 0.5rem 0rem;
+  padding: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  border-radius: 8px;
+  width: 250px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -23,14 +23,14 @@ function Userlist() {
       </nav>
       <main>
         <div>
-          <h2>list of users</h2>
+          <h2>Our Projects</h2>
           <ul>
             {list.map((item) => (
               <Link href="/project" key={item.id}>
                 <div className="project-list">
                   <div className="prof-img">
                     <Image
-                      src="/images/pic1.png"
+                      src={item.profImg}
                       height={200}
                       width={300}
                       alt="Profile Pic"

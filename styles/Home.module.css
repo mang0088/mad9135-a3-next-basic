@@ -26,19 +26,6 @@
   align-items: center;
 }
 
-.project-list {
-  display: flex;
-  padding: 1rem;
-  flex-direction: column;
-  width: 500px;
-  align-items: center;
-}
-
-.prof-details ul {
-  padding: 1rem;
-  list-style: none;
-}
-
 .footer {
   display: flex;
   flex: 1;
