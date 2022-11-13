@@ -48,7 +48,7 @@ export default function Home() {
             that time, Infosys was among the 20 biggest companies by market
             capitalization on the Nasdaq.The ADR listing was shifted from Nasdaq
             to NYSE Euronext to give European investors better access to the
-            company's shares.
+            companys shares.
           </p>
         </div>
       </main>
