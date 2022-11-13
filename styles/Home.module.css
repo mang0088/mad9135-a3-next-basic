@@ -2,6 +2,20 @@
   padding: 0 2rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItems {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  justify-content: space-around;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -10,6 +24,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.project-list {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+.prof-details ul {
+  padding: 1rem;
+  list-style: none;
 }
 
 .footer {
@@ -54,6 +81,18 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.bannerDes {
+  padding-top: 5rem;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bannerDes p {
+  width: 450px;
 }
 
 .code {
